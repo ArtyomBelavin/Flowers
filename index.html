@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Крупнейшая коллекция природных артефактов</title>
+    <link rel="icon" href="./favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="header">
         <section class="menu">
-        <div class="container">
-            <div class="header__menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <div class="logo">
-                            <a href="#" class="menu__link"><img src="img/logo.svg" alt=""></a>
+            <div class="container">
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item logo">
+                            <a href="#" class="menu__link"><img src="img/logo.svg" alt="Логотип"></a>
+                        </li>
+                        <div class="main__menu">
+                            <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Галерея</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">О лаборатории</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
                         </div>
-                    </li>
-                     <div class="main__menu">
-                        <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Галерея</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">О лаборатории</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-                    </div>
-                    <div class="menu__basket">
-                        <li class="menu__item"><a href="#" class="menu__link"><img src="img/search.svg" alt=""></a></li>
-                        <li class="menu__item"><a href="#" class="menu__link"><img src="img/exit.svg" alt=""></a></li>
-                    </div>
-                </ul>
+                        <div class="menu__basket">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    <img src="img/search.svg" alt="Поиск">
+                                    <span class="menu__text">Поиск</span>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    <img src="img/exit.svg" alt="Выход">
+                                    <span class="menu__text">Выход</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </ul>
+
+                </nav>
             </div>
-            
-        </div>
-    </section>
-    <section class="header__content">
-        <div class="container">
-            <div class="header__hero">
-                <h1 class="header__titel">
-                    Крупнейшая коллекция <br> природных артефактов
-                </h1>
-                <p class="header__descr">
-                    Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример европейского типа политической и социальной культуры.
-                </p>
-                <div class="hero__btn">
-                    <a href="#" class="header__btn__link">
-                        Исследовать
-                    </a>
-                    <img src="img/Arrow 1.svg" alt="">
+        </section>
+        <section class="header__content">
+            <div class="container">
+                <div class="header__hero">
+                    <h1 class="header__titel">
+                        Крупнейшая коллекция <br> природных артефактов
+                    </h1>
+                    <p class="header__descr">
+                        Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой
+                        яркий пример европейского типа политической и социальной культуры.
+                    </p>
+                    <div class="hero__btn">
+                        <a href="#" class="header__btn__link">
+                            Исследовать
+                        </a>
+                        <img src="img/Arrow 1.svg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </header>
 
     <main class="main">
@@ -66,7 +83,8 @@
                                 Fig. 1 (plant)
                             </h2>
                             <p class="flower__descr">
-                                Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.
+                                Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны
+                                третьего мира своевременно верифицированы.
                             </p>
                             <button class="flower__btn">
                                 Подробнее
@@ -83,7 +101,8 @@
                                 Fig. 2 (plant)
                             </h2>
                             <p class="flower__descr">
-                                Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.
+                                Прежде всего, синтетическое тестирование влечет за собой процесс внедрения
+                                и модернизации условий.
                             </p>
                             <button class="flower__btn">
                                 Подробнее
@@ -100,7 +119,8 @@
                                 Fig. 3 (leaf)
                             </h2>
                             <p class="flower__descr">
-                                Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами себе для работы.
+                                Лишь непосредственные участники прогресса неоднозначны и будут в равной степени
+                                предоставлены сами себе для работы.
                             </p>
                             <button class="flower__btn">
                                 Подробнее
@@ -129,7 +149,7 @@
                     <div class="slider__flex">
                         <button class="btn__flower" id="btn__prev"><img src="img/Arrow 2.svg" alt=""></button>
                         <p id="slider__text">1 из 3</p>
-                       <button class="btn__flower" id="btn__next"><img src="img/Arrow 1 (1).svg" alt=""></button> 
+                        <button class="btn__flower" id="btn__next"><img src="img/Arrow 1 (1).svg" alt=""></button>
                     </div>
                 </div>
             </div>
@@ -146,13 +166,15 @@
                             Kurische Nehrung 24
                         </h3>
                         <p class="newArt__descr">
-                            Вот вам яркий пример современных тенденций - начало повседневной работы по формированию позиции выявляет срочную потребность методов управления процессами. 
-                            Есть над чем задуматься: представители современных социальных резервов своевременно верифицированы.
+                            Вот вам яркий пример современных тенденций - начало повседневной работы по формированию
+                            позиции выявляет срочную потребность методов управления процессами.
+                            Есть над чем задуматься: представители современных социальных резервов своевременно
+                            верифицированы.
                         </p>
                         <div class="newArt__btn">
                             <a href="#" class="menu__link__main">Читать далее</a>
-                            <img src="img/Arrow 1 (2).svg" alt="">     
-                        </div> 
+                            <img src="img/Arrow 1 (2).svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,7 +185,9 @@
                     Помочь проекту
                 </h2>
                 <p class="form__descr">
-                    Равным образом, экономическая повестка сегодняшнего дня не даёт нам иного выбора, кроме определения прогресса профессионального сообщества. Как принято считать, элементы политического процесса рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. 
+                    Равным образом, экономическая повестка сегодняшнего дня не даёт нам иного выбора, кроме определения
+                    прогресса профессионального сообщества. Как принято считать, элементы политического процесса
+                    рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.
                 </p>
                 <form class="form__form">
                     <input class="form__input" type="text" name="name" id="name" placeholder="Имя">
@@ -204,4 +228,5 @@
     </footer>
     <script src="js/main.js"></script>
 </body>
+
 </html>
